@@ -25,6 +25,17 @@ gem 'font-awesome-rails'
 
 gem 'kaminari'
 
+gem 'capistrano', '~>3.0.1' 
+
+#railsspecificcapistranofunctions
+gem 'capistrano-rails', '~>1.1.0'
+
+#integratebundlerwithcapistrano
+gem 'capistrano-bundler'
+
+#ifyouareusingRbenv
+gem 'capistrano-rbenv', "~>2.0"
+
 
 
 group :doc do
