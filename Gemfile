@@ -57,7 +57,7 @@ end
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # gem 'execjs'
 # gem 'therubyracer'
