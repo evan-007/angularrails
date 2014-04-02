@@ -1,4 +1,5 @@
 Angularails::Application.routes.draw do
+  get "models_need_dots/show"
   get "taco_order/edit"
   get "hello_angular/show"
   # The priority is based upon order of creation: first created -> highest priority.
