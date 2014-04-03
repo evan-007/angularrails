@@ -1,4 +1,6 @@
 Angularails::Application.routes.draw do
+  resources :books
+
   get "git_http/show"
   resources :widgets
 
